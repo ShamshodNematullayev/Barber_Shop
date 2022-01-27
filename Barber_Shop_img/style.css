@@ -345,6 +345,10 @@ hr {
     align-items: center;
 }
   @media (max-width:375px) {
+        #navbar {
+                padding: 50px;
+                height: 150vh;
+            }
             .box h1 {
                 font-size: 70px;
                 margin-top: 150px;
