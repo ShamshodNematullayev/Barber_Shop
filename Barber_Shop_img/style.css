@@ -146,7 +146,7 @@ input {
 
 #navbar {
     padding: 50px;
-    height: 110vh;
+    height: 150vh;
 }
 
 #navbar .logo2 {
@@ -344,5 +344,113 @@ hr {
     display: flex;
     align-items: center;
 }
-
-@media(max-width:375px) {}
+  @media (max-width:375px) {
+            .box h1 {
+                font-size: 70px;
+                margin-top: 150px;
+            }
+            .box {
+                width: 100%;
+            }
+            .box p {
+                width: 100%;
+                font-size: 20px;
+            }
+            .box .btnn1 {
+                top: -80px;
+                left: 10%;
+            }
+            .box .btnn2 {
+                margin-left: -145.5px;
+                font-size: 23.5px;
+            }
+            #banner .logo {
+                left: 5%;
+            }
+            #navbar .logo2 h1 {
+                font-size: 50px;
+                width: 350px;
+                margin-left: 0px;
+            }
+            .express {
+                margin-top: -500px;
+                margin-left: -20px;
+            }
+            .boxx {
+                width: 170%;
+                margin-bottom: 20px;
+            }
+            #navbar .home .express .boxx span {
+                font-size: 30px;
+            }
+            #navbar .home .express .boxx p {
+                font-size: 15px;
+                font-family: sans-serif;
+            }
+            #navbar .home .express .boxx .iconka {
+                font-size: 15px;
+                margin: 0px 0px 0px 0px;
+            }
+            #navbar .home .express .boxx .iconka .far {
+                margin: 10px;
+                font-size: 50px;
+                color: #009688;
+            }
+            #navbar .images img {
+                margin-top: 280px;
+                margin-left: -170px;
+                border-radius: 10px;
+                width: 280%;
+                height: 280%;
+            }
+            #img .logo2 h1 {
+                font-size: 50px;
+                width: 90%;
+                margin-left: 20px;
+                font-family: sans-serif;
+                margin-top: 20px;
+            }
+            .service {
+                flex-basis: 100%;
+                font-family: sans-serif;
+            }
+            .service:hover .text {
+                bottom: 20%;
+            }
+            .izohh {
+                width: 85%;
+            }
+            #izoh {
+                width: 100%;
+                padding: 70px 0;
+            }
+            #izoh .logo2 {
+                text-align: center;
+            }
+            #izoh .logo2 h1 {
+                font-size: 55px;
+                font-family: sans-serif;
+            }
+            .izohlar {
+                flex-direction: column;
+                overflow: hidden;
+            }
+            .izohlar img {
+                width: 30%;
+                height: 30%;
+                margin: 10px;
+            }
+            .container ul {
+                margin-top: 150px;
+            }
+            #menu {
+                right: 10%;
+            }
+            #menu label .fas {
+                width: 30px;
+                height: 30px;
+            }
+            .container nav ul li a {
+                font-size: 20px;
+            }
+        }
