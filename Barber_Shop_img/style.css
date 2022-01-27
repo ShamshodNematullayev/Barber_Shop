@@ -344,3 +344,5 @@ hr {
     display: flex;
     align-items: center;
 }
+
+@media(max-width:375px) {}
