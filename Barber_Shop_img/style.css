@@ -344,7 +344,7 @@ hr {
     display: flex;
     align-items: center;
 }
-  @media (max-width:375px) {
+  @media (max-width:1080px) {
         #navbar {
                 padding: 50px;
                 height: 150vh;
